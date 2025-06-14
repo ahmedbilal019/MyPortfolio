@@ -11,12 +11,17 @@ function Header() {
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link">
-              Education 
+              Education
             </a>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link">
-              Skills & Experience
+              Skills
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link">
+              Experience
             </a>
           </li>
           <li className="nav-item">

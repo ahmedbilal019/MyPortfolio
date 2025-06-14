@@ -1,21 +1,16 @@
 import React from "react";
+import { FaGraduationCap } from "react-icons/fa6";
 
 function Education() {
   return (
     <>
       <div class="px-4 py-5 my-5 text-center">
         {" "}
-        <img
-          class="d-block mx-auto mb-4"
-          src="/docs/5.3/assets/brand/bootstrap-logo.svg"
-          alt=""
-          width="72"
-          height="57"
-        />{" "}
-        <h1 class="display-5 fw-bold text-body-emphasis">Education</h1>
-        <h2 class="display-5 fw-bold text-body-emphasis">
+        <FaGraduationCap size={72} className="mx-auto mb-4 text-blue-600" />
+        <h2 class="display-5 fw-bold text-body-emphasis">Education</h2>
+        <h3 class="display-7 fw-bold text-body-emphasis">
           Bachelors in Computer Science
-        </h2>{" "}
+        </h3>{" "}
         <div class="col-lg-6 mx-auto">
           {" "}
           <p class="lead mb-4">
