@@ -1,8 +1,44 @@
-.skillsLogo {
+.skillsLogos {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 10px;
+  margin-top: 20px;
+}
+.home-container {
+  background-color: #b8e7d7;
+}
+.education-container {
+  background-color: #b8e7d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.experience-container {
+  background-color: #b8e7d7;
+}
+.projects-container {
+  background-color: #b8e7d7;
+}
+.skills-container {
+  line-height: normal;
+  background-color: #b8e7d7;
+  margin: 0px;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.profileImg {
+  margin-top: -20px;
+}
+.navbar li a {
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+}
+.py-5 {
+  padding-top: 0px;
 }

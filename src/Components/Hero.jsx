@@ -3,19 +3,19 @@ import React from "react";
 function Hero() {
   return (
     <>
-      <section>
+      <div className="home-container">
         {" "}
-        <div className="container col-xxl-8 px-4 py-5">
+        <div className="container col-xxl-8 px-4 py-1 home-container ">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
             {" "}
             <div className="col-10 col-sm-8 col-lg-6">
               {" "}
               <img
                 src="src\assets\profile-picture.png"
-                className="d-block mx-lg-auto img-fluid"
+                className="d-block mx-lg-auto img-fluid profileImg"
                 alt="Profile Image"
-                width="700"
-                height="500"
+                width="500"
+                height="300"
                 loading="lazy"
               />{" "}
             </div>{" "}
@@ -31,25 +31,10 @@ function Hero() {
                 Motivated to contribute to a professional team and continuously
                 enhance technical skills.
               </p>{" "}
-              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                {" "}
-                <button
-                  type="button"
-                  className="btn btn-primary btn-lg px-4 me-md-2"
-                >
-                  Primary
-                </button>{" "}
-                <button
-                  type="button"
-                  className="btn btn-outline-secondary btn-lg px-4"
-                >
-                  Default
-                </button>{" "}
-              </div>{" "}
             </div>{" "}
           </div>{" "}
         </div>
-      </section>
+      </div>
     </>
   );
 }

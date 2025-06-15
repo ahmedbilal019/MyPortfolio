@@ -8,17 +8,18 @@ import Skills from "./Components/Skills";
 import Experience from "./Components/Experience";
 import { useState } from "react";
 function App() {
-  
+  const [selectedTab, setSelectedTab] = useState("Home");
   return (
     <>
       <Header
-       
+        selectedTab={selectedTab}
+        setSelectedTab={setSelectedTab}
       ></Header>
-      <Hero></Hero>
-      <Education></Education>
-      <Skills></Skills>
-      <Experience></Experience>
-      <Projects></Projects>
+      {selectedTab === "Home" && <Hero></Hero>}
+      {selectedTab === "Education" && <Education></Education>}
+      {selectedTab === "Skills" && <Skills></Skills>}
+      {selectedTab === "Experience" && <Experience></Experience>}
+      {selectedTab === "Projects" && <Projects></Projects>}
     </>
   );
 }
