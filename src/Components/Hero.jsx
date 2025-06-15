@@ -11,7 +11,7 @@ function Hero() {
             <div className="col-10 col-sm-8 col-lg-6">
               {" "}
               <img
-                src="src\assets\profile-picture.png"
+                src="\assets\profile-picture.png"
                 className="d-block mx-lg-auto img-fluid profileImg"
                 alt="Profile Image"
                 width="500"
