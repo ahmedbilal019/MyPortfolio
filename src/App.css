@@ -26,10 +26,39 @@
   justify-content: center;
 }
 
-.projects-container {
+.experience-container ul li {
+  margin-bottom: 8px;
+  margin-top: 4px;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+.experience-container ul li:hover {
+  box-shadow: 3px 1px 17px 2px rgba(37, 165, 159, 0.58);
+  background-color: rgb(247, 239, 239);
+}
+.project-card {
+  margin: 10px 10px;
+}
+.project-card:hover {
+  box-shadow: 3px 1px 17px 2px rgba(19, 58, 102, 0.58);
+  background-color: rgb(224, 216, 216);
+  padding: 1px;
+}
+
+.project-list-container {
+  padding-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b8e7d7;
+}
+.project-list {
+  padding: 20px 10px;
   background-color: #b8e7d7;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .skills-container {

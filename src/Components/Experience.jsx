@@ -5,6 +5,9 @@ function Experience() {
     <>
       <div className="experience-container">
         <ul class="list-group">
+          <h2 className="display-5 fw-bold text-body-emphasis text-center">
+            Experience
+          </h2>
           <li href="#" class="list-group-item">
             <strong>Frontend Development Internship</strong>
             <br />
