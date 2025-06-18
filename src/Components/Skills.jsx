@@ -3,6 +3,7 @@ import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa6";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa6";
 
 function Skills() {
   return (
@@ -26,6 +27,11 @@ function Skills() {
               <figure>
                 <TbBrandJavascript className="img-fluid" size={80} />
                 <figcaption>JS</figcaption>
+              </figure>
+              <figure>
+                {" "}
+                <FaBootstrap className="img-fluid" size={80} />
+                <figcaption>Bootstrap</figcaption>
               </figure>
               <figure>
                 {" "}

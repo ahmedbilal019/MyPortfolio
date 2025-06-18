@@ -42,7 +42,7 @@
 .project-card:hover {
   box-shadow: 3px 1px 17px 2px rgba(19, 58, 102, 0.58);
   background-color: rgb(224, 216, 216);
-  padding: 1px;
+  padding: 0.9px;
 }
 
 .project-list-container {
@@ -80,4 +80,22 @@
 }
 .py-5 {
   padding-top: 0px;
+}
+.contact-card {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b8e7d7;
+}
+.contact-card .card-title {
+  text-align: center;
+  font-weight: bold;
+}
+.contact-card .card:hover {
+  box-shadow: 10px 5px 27px 20px rgba(23, 23, 167, 0.13);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }

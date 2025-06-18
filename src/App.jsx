@@ -7,6 +7,8 @@ import Skills from "./Components/Skills";
 import Experience from "./Components/Experience";
 import { useState } from "react";
 import ProjectsList from "./Components/ProjectsList";
+import Contact from "./Components/Contact";
+
 function App() {
   const [selectedTab, setSelectedTab] = useState("Home");
   const Projects_array = [
@@ -41,14 +43,14 @@ function App() {
     },
     {
       id: "5",
-      title: "Counter App",
+      title: "Calculator App",
       description:
         "This react app can perform basic math operations like addtion,subtraction, multiplication and division. ",
       link: "https://get-fast-calculations.netlify.app/ ",
     },
     {
       id: "6",
-      title: "Social",
+      title: "Social Post App",
       description:
         "React app styled with bootstrap, where user can add a post and view different posts.",
       link: "https://socialmediapostsapp.netlify.app/  ",
@@ -69,6 +71,7 @@ function App() {
       {selectedTab === "Projects" && (
         <ProjectsList Projects_array={Projects_array}></ProjectsList>
       )}
+      {selectedTab === "Contact" && <Contact></Contact>}
     </>
   );
 }
