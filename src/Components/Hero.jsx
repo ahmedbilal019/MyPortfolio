@@ -19,12 +19,12 @@ function Hero() {
                 loading="lazy"
               />{" "}
             </div>{" "}
-            <div className="col-lg-6">
+            <div className="col-lg-6 about-section">
               {" "}
-              <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              <h1 className="myname display-5 fw-bold text-body-emphasis lh-1 mb-3  ">
                 I am Ahmed Bilal
               </h1>{" "}
-              <p className="lead">
+              <p className="lead aboutme">
                 Computer Science graduate passionate about frontend development,
                 skilled in HTML, CSS, JavaScript, and React. Dedicated to
                 building responsive and user-friendly web applications.

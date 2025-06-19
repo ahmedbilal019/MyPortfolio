@@ -2,7 +2,7 @@ import "../App.css";
 function Header({ selectedTab, setSelectedTab }) {
   return (
     <>
-      <header className="d-flex justify-content-center py-3 p-3 text-bg-dark">
+      <header className="d-flex justify-content-center py-3 p-3 text-bg-dark header">
         <ul className="nav nav-pills navbar">
           <li
             className="nav-item"

@@ -7,20 +7,45 @@
   margin-top: 20px;
 }
 .home-container {
-  background-color: #b8e7d7;
+  background-color: #0b9b6b;
+}
+.about-section {
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+}
+.myname {
+  font-family: "Times New Roman", Times, serif;
+}
+.aboutme {
+  color: white;
+  font-weight: 400 !important;
+}
+
+@keyframes example {
+  0% {
+    left: -90px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
 }
 .education-container {
-  background-color: #b8e7d7;
+  background-color: #0b9b6b;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 10px;
 }
+
 .experience-container {
   padding-top: 50px;
   padding-bottom: 50px;
   height: 85vh;
-  background-color: #b8e7d7;
+  background-color: #0b9b6b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,11 +75,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #b8e7d7;
+  background-color: #0b9b6b;
 }
 .project-list {
   padding: 20px 10px;
-  background-color: #b8e7d7;
+  background-color: #0b9b6b;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -63,7 +88,7 @@
 }
 .skills-container {
   line-height: normal;
-  background-color: #b8e7d7;
+  background-color: #0b9b6b;
   margin: 0px;
   padding-top: 90px;
   display: flex;
@@ -72,6 +97,21 @@
 }
 .profileImg {
   margin-top: -20px;
+  animation-name: imageAnimate;
+  animation-duration: 2s;
+  background-color: rgba(37, 15, 161, 0.555);
+  border-radius: 50%;
+}
+
+@keyframes imageAnimate {
+  0% {
+    opacity: 0;
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: -20px;
+    opacity: 1;
+  }
 }
 .navbar li a {
   color: white;
