@@ -14,28 +14,36 @@ function Skills() {
           <h2 className="display-5 fw-bold text-body-emphasis">Skills</h2>
           <div className="col-lg-6 mx-auto">
             <div className="skillsLogos">
-              <figure>
+              <figure className="html">
                 {" "}
-                <FaHtml5 className="img-fluid" size={80} />
+                <FaHtml5 className="img-fluid " color="#E0E0E0" size={80} />
                 <figcaption>HTML</figcaption>
               </figure>
-              <figure>
+              <figure className="css">
                 {" "}
-                <FaCss3Alt className="img-fluid" size={80} />
+                <FaCss3Alt className="img-fluid" color="#E0E0E0" size={80} />
                 <figcaption>CSS</figcaption>
               </figure>
-              <figure>
-                <TbBrandJavascript className="img-fluid" size={80} />
+              <figure className="js">
+                <TbBrandJavascript
+                  className="img-fluid"
+                  color="#E0E0E0"
+                  size={80}
+                />
                 <figcaption>JS</figcaption>
               </figure>
-              <figure>
+              <figure className="bootstrap">
                 {" "}
-                <FaBootstrap className="img-fluid" size={80} />
+                <FaBootstrap
+                  className="img-fluid bootstrap"
+                  color="#E0E0E0"
+                  size={80}
+                />
                 <figcaption>Bootstrap</figcaption>
               </figure>
-              <figure>
+              <figure className="react">
                 {" "}
-                <FaReact className="img-fluid" size={80} />
+                <FaReact className="img-fluid" color="#61DBFB" size={80} />
                 <figcaption>REACT</figcaption>
               </figure>
             </div>
