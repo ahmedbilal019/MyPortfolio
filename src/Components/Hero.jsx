@@ -35,14 +35,15 @@ function Hero({ selectedTab, setSelectedTab }) {
                   type="button"
                   className="btn btn-primary btn-lg px-4 me-md-2 btn-goToProjects"
                 >
-                  <a
-                    href="#"
-                    onClick={() => {
-                      setSelectedTab("Projects");
-                    }}
-                  >
-                    View Projects
+                  <a href="https://drive.google.com/drive/folders/1MG1niPXRT9_I3fl8pjnxrYSTLK4z_PKN">
+                    Download CV
                   </a>
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-primary btn-lg px-4 me-md-2 btn-goToProjects"
+                >
+                  <a href="https://github.com/ahmedbilal019">GitHub Repo</a>
                 </button>
               </div>
             </div>
