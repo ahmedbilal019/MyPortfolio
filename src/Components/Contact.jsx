@@ -36,12 +36,12 @@ function Contact() {
           </ul>
           <div class="card-body">
             <a
-              href="https:linkedin.com/in/ahmad-bilal-1872222b3"
+              href="https://linkedin.com/in/ahmad-bilal-1872222b3"
               class="card-link"
             >
               <FaLinkedin className="img-fluid" size={25} />
             </a>
-            <a href="https:github.com/ahmedbilal019" class="card-link">
+            <a href="https://github.com/ahmedbilal019" class="card-link">
               <FaGithub className="img-fluid" size={25} />
             </a>
           </div>

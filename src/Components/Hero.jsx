@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero() {
+function Hero({ selectedTab, setSelectedTab }) {
   return (
     <>
       <div className="home-container">
@@ -15,24 +15,38 @@ function Hero() {
                 className="d-block mx-lg-auto img-fluid profileImg"
                 alt="Profile Image"
                 width="500"
-                height="300"
+                height="200"
                 loading="lazy"
-              />{" "}
-            </div>{" "}
+              />
+            </div>
             <div className="col-lg-6 about-section">
-              {" "}
               <h1 className="myname display-5 fw-bold text-body-emphasis lh-1 mb-3  ">
                 I am Ahmed Bilal
-              </h1>{" "}
+              </h1>
               <p className="lead aboutme">
                 Computer Science graduate passionate about frontend development,
                 skilled in HTML, CSS, JavaScript, and React. Dedicated to
                 building responsive and user-friendly web applications.
                 Motivated to contribute to a professional team and continuously
                 enhance technical skills.
-              </p>{" "}
-            </div>{" "}
-          </div>{" "}
+              </p>
+              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button
+                  type="button"
+                  className="btn btn-primary btn-lg px-4 me-md-2 btn-goToProjects"
+                >
+                  <a
+                    href="#"
+                    onClick={() => {
+                      setSelectedTab("Projects");
+                    }}
+                  >
+                    View Projects
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

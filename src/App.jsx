@@ -64,7 +64,8 @@ function App() {
         setSelectedTab={setSelectedTab}
       ></Header>
 
-      {selectedTab === "Home" && <Hero></Hero>}
+      {selectedTab === "Home" && <Hero selectedTab={selectedTab}
+        setSelectedTab={setSelectedTab}></Hero>}
       {selectedTab === "Education" && <Education></Education>}
       {selectedTab === "Skills" && <Skills></Skills>}
       {selectedTab === "Experience" && <Experience></Experience>}
