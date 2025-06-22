@@ -18,6 +18,7 @@ function App() {
       description:
         "ToDo List is created Using HTML, CSS and JS. A user can add, edit,mark or unmark and delete task in To Do list",
       link: "https://ahmedbilal019.github.io/To-Do-List/",
+      image: "/ToDoList.PNG",
     },
 
     {
@@ -26,6 +27,7 @@ function App() {
       description:
         "This website is created using HTML, CSS and JS. Responsive UI make it eaay to use in Mobile as well as on large screens",
       link: "https://ahmedbilal019.github.io/Shoes-store-website/ ",
+      image: "/ShoesStore.PNG",
     },
     {
       id: "3",
@@ -33,6 +35,7 @@ function App() {
       description:
         "created by using HTML, CSS and JS to show the exact time in digital format.",
       link: "https://ahmedbilal019.github.io/Digital-Clock/",
+      image: "/Digital-clock.PNG",
     },
     {
       id: "4",
@@ -40,6 +43,7 @@ function App() {
       description:
         "App created using React. User can increment, decrement and reset counter value",
       link: "https://my-counter-app1.netlify.app",
+      image: "/CounterApp.PNG",
     },
     {
       id: "5",
@@ -47,6 +51,7 @@ function App() {
       description:
         "This react app can perform basic math operations like addtion,subtraction, multiplication and division. ",
       link: "https://get-fast-calculations.netlify.app/ ",
+      image: "/calculator.PNG",
     },
     {
       id: "6",
@@ -54,6 +59,15 @@ function App() {
       description:
         "React app styled with bootstrap, where user can add a post and view different posts.",
       link: "https://socialmediapostsapp.netlify.app/  ",
+      image: "/socialPost.PNG",
+    },
+    {
+      id: "7",
+      title: "Weather App",
+      description:
+        "React app created for checking real time weather condition of specific area.",
+      link: "https://weatherchecking123.netlify.app/  ",
+      image: "/WeatherApp.PNG",
     },
   ];
 
@@ -64,8 +78,9 @@ function App() {
         setSelectedTab={setSelectedTab}
       ></Header>
 
-      {selectedTab === "Home" && <Hero selectedTab={selectedTab}
-        setSelectedTab={setSelectedTab}></Hero>}
+      {selectedTab === "Home" && (
+        <Hero selectedTab={selectedTab} setSelectedTab={setSelectedTab}></Hero>
+      )}
       {selectedTab === "Education" && <Education></Education>}
       {selectedTab === "Skills" && <Skills></Skills>}
       {selectedTab === "Experience" && <Experience></Experience>}
