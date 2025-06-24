@@ -24,11 +24,11 @@ function Hero({ selectedTab, setSelectedTab }) {
                 I am Ahmed Bilal
               </h1>
               <p className="lead aboutme">
-                Computer Science graduate passionate about frontend development,
-                skilled in HTML, CSS, JavaScript, and React. Dedicated to
-                building responsive and user-friendly web applications.
-                Motivated to contribute to a professional team and continuously
-                enhance technical skills.
+                Computer Science graduate passionate about{" "}
+                <strong>frontend development</strong> , skilled in HTML, CSS,
+                JavaScript, and React. Dedicated to building responsive and
+                user-friendly web applications. Motivated to contribute to a
+                professional team and continuously enhance technical skills.
               </p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                 <button
