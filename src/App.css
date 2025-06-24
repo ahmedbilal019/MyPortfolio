@@ -243,7 +243,7 @@
 }
 .contact-card {
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,7 +254,7 @@
   font-weight: bold;
 }
 .contact-card ul {
-  padding-top: 30px;
+  padding-top: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -262,6 +262,12 @@
   flex-wrap: wrap;
   list-style: none;
   background-color: transparent;
+}
+.contact-card ul li {
+  border: none !important;
+}
+.contact-card h6 {
+  padding-top: 30px;
 }
 @keyframes slideFadeIn {
   from {

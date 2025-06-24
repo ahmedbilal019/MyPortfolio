@@ -45,9 +45,8 @@ function Contact() {
                 Submit
               </button>
             </form>
-
+            <h6>Feel free to contact me through the following platforms:</h6>
             <ul class="list-group list-group-flush">
-              <h6>Feel free to contact me through the following platforms:</h6>
               <li class="list-group-item">
                 <span>
                   {" "}
@@ -68,14 +67,15 @@ function Contact() {
                     href="https://linkedin.com/in/ahmad-bilal-1872222b3"
                     class="card-link"
                   >
-                    <FaLinkedin className="img-fluid me-2 icons" size={20} />
+                    <FaLinkedin className="img-fluid me-2 icons" size={25} />
                   </a>
                 </span>
               </li>
+
               <li class="list-group-item">
                 <span>
                   <a href="https://github.com/ahmedbilal019" class="card-link">
-                    <FaGithub className="img-fluid icons" size={20} />
+                    <FaGithub className="img-fluid icons" size={25} />
                   </a>
                 </span>
               </li>
