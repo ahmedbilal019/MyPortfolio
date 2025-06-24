@@ -25,7 +25,7 @@ function Contact() {
                   type="email"
                   class="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  placeholder="xyz@gmail.com"
                   required
                 />
               </div>
@@ -36,6 +36,7 @@ function Contact() {
                 <textarea
                   class="form-control"
                   id="exampleFormControlTextarea1"
+                  placeholder="Write your message here..."
                   rows="3"
                   required
                 ></textarea>
