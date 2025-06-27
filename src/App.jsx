@@ -16,24 +16,23 @@ function App() {
       id: "1",
       title: "ToDo List",
       description:
-        "ToDo List is created Using HTML, CSS and JS. A user can add, edit,mark or unmark and delete task in To Do list",
+        "A simple task manager built with HTML, CSS, and JavaScript. Users can add, edit, mark/unmark, and delete tasks with ease.",
       link: "https://ahmedbilal019.github.io/To-Do-List/",
       image: "/ToDoList.PNG",
     },
-
     {
       id: "2",
       title: "Shoes Store",
       description:
-        "This website is created using HTML, CSS and JS. Responsive UI make it eaay to use in Mobile as well as on large screens",
-      link: "https://ahmedbilal019.github.io/Shoes-store-website/ ",
+        "Responsive e-commerce site built with HTML, CSS, and JS. Optimized for seamless use on both mobile and desktop.",
+      link: "https://ahmedbilal019.github.io/Shoes-store-website/",
       image: "/ShoesStore.PNG",
     },
     {
       id: "3",
       title: "Digital Clock",
       description:
-        "created by using HTML, CSS and JS to show the exact time in digital format.",
+        "A digital clock built with HTML, CSS, and JavaScript. Displays the current time in a clean, easy-to-read format.",
       link: "https://ahmedbilal019.github.io/Digital-Clock/",
       image: "/Digital-clock.PNG",
     },
@@ -41,7 +40,7 @@ function App() {
       id: "4",
       title: "Counter App",
       description:
-        "App created using React. User can increment, decrement and reset counter value",
+        "A React-based app that allows users to increment, decrement, and reset the counter value with a clean interface.",
       link: "https://my-counter-app1.netlify.app",
       image: "/CounterApp.PNG",
     },
@@ -49,24 +48,24 @@ function App() {
       id: "5",
       title: "Calculator App",
       description:
-        "This react app can perform basic math operations like addtion,subtraction, multiplication and division. ",
-      link: "https://get-fast-calculations.netlify.app/ ",
+        "A calculator built with React. Supports basic math operations like addition, subtraction, multiplication, and division.",
+      link: "https://get-fast-calculations.netlify.app/",
       image: "/calculator.PNG",
     },
     {
       id: "6",
       title: "Social Post App",
       description:
-        "React app styled with bootstrap, where user can add a post and view different posts.",
-      link: "https://socialmediapostsapp.netlify.app/  ",
+        "A mini social feed built with React and Bootstrap. Users can create and view posts in a simple, card-based layout.",
+      link: "https://socialmediapostsapp.netlify.app/",
       image: "/socialPost.PNG",
     },
     {
       id: "7",
       title: "Weather App",
       description:
-        "React app created for checking real time weather condition of specific area.",
-      link: "https://weatherchecking123.netlify.app/  ",
+        "A React application that shows real-time weather updates based on the user’s searched location using API data.",
+      link: "https://weatherchecking123.netlify.app/",
       image: "/WeatherApp.PNG",
     },
   ];

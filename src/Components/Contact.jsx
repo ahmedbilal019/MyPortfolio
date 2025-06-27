@@ -12,69 +12,78 @@ function Contact() {
   return (
     <>
       <div className="contact-card">
-        <div class="card" style={{ width: "32rem", height: "33rem" }}>
-          <div class="card-body">
-            <h5 class="card-title">Contact Me!</h5>
+        <div className="card" style={{ width: "32rem", height: "33rem" }}>
+          <div className="card-body">
+            <h5 className="card-title">Contact Me!</h5>
 
             <form action="" onSubmit={handleSubmit}>
-              <div class="mb-3">
-                <label htmlFor="exampleFormControlInput1" class="form-label">
+              <div className="mb-3">
+                <label
+                  htmlFor="exampleFormControlInput1"
+                  className="form-label"
+                >
                   Email address
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="xyz@gmail.com"
                   required
                 />
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">
+              <div className="mb-3">
+                <label
+                  htmlFor="exampleFormControlTextarea1"
+                  className="form-label"
+                >
                   Message
                 </label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlTextarea1"
                   placeholder="Write your message here..."
                   rows="3"
                   required
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary w-100">
+              <button type="submit" className="btn btn-primary w-100">
                 Submit
               </button>
             </form>
             <h6>Feel free to contact me through the following platforms:</h6>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">
                 <span>
                   {" "}
                   <MdEmail className="img-fluid icons" size={25} />
                 </span>{" "}
                 ahmed258bilal@gmail.com
               </li>
-              <li class="list-group-item">
+              <li className="list-group-item">
                 <span>
                   {" "}
                   <FaWhatsapp className="img-fluid me-2 icons" size={25} />
                 </span>
                 +923135251927
               </li>
-              <li class="list-group-item">
+              <li className="list-group-item">
                 <span>
                   <a
                     href="https://linkedin.com/in/ahmad-bilal-1872222b3"
-                    class="card-link"
+                    className="card-link"
                   >
                     <FaLinkedin className="img-fluid me-2 icons" size={25} />
                   </a>
                 </span>
               </li>
 
-              <li class="list-group-item">
+              <li className="list-group-item">
                 <span>
-                  <a href="https://github.com/ahmedbilal019" class="card-link">
+                  <a
+                    href="https://github.com/ahmedbilal019"
+                    className="card-link"
+                  >
                     <FaGithub className="img-fluid icons" size={25} />
                   </a>
                 </span>

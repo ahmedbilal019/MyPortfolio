@@ -7,7 +7,6 @@ function Header({ selectedTab, setSelectedTab }) {
           <li
             className="nav-item"
             onClick={() => {
-              console.log("Home tab is clicked");
               setSelectedTab("Home");
             }}
           >
@@ -22,7 +21,6 @@ function Header({ selectedTab, setSelectedTab }) {
           <li
             className="nav-item"
             onClick={() => {
-              console.log("education tab is clicked");
               setSelectedTab("Education");
             }}
           >
@@ -36,7 +34,6 @@ function Header({ selectedTab, setSelectedTab }) {
           <li
             className="nav-item"
             onClick={() => {
-              console.log("skills tab is clicked");
               setSelectedTab("Skills");
             }}
           >
@@ -50,7 +47,6 @@ function Header({ selectedTab, setSelectedTab }) {
           <li
             className="nav-item"
             onClick={() => {
-              console.log("Experience tab is clicked");
               setSelectedTab("Experience");
             }}
           >
@@ -64,7 +60,6 @@ function Header({ selectedTab, setSelectedTab }) {
           <li
             className="nav-item"
             onClick={() => {
-              console.log("projects tab is clicked");
               setSelectedTab("Projects");
             }}
           >
@@ -78,7 +73,6 @@ function Header({ selectedTab, setSelectedTab }) {
           <li
             className="nav-item"
             onClick={() => {
-              console.log("contact tab is clicked");
               setSelectedTab("Contact");
             }}
           >

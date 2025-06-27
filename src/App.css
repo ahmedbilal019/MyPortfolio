@@ -41,11 +41,22 @@
   }
 }
 .home-container {
-  background-color: #0b9b6b;
+  background: linear-gradient(135deg, #0b9b6b, #032d23);
 }
 .btn-goToProjects a {
   color: white;
   text-decoration: none;
+}
+.btn-goToProjects {
+  background-color: rgba(29, 7, 153, 0.836);
+}
+.btn-goToProjects:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(37, 15, 161, 0.555) 0%,
+    rgb(34, 38, 88) 35%,
+    rgba(37, 15, 161, 0.555) 100%
+  );
 }
 
 .education-container h3,
@@ -70,7 +81,7 @@
 }
 @keyframes capAnimation {
   0% {
-    color: rgba(255, 255, 255, 0.438);
+    color: transparent;
     opacity: 0;
     transform: rotate(360deg);
   }
@@ -102,7 +113,7 @@
   }
 }
 .education-container {
-  background-color: #0b9b6b;
+  background: linear-gradient(135deg, #0b9b6b, #032d23);
   color: white;
   display: flex;
   align-items: center;
@@ -114,7 +125,7 @@
   padding-top: 50px;
   padding-bottom: 57px;
   height: 85.5vh;
-  background-color: #0b9b6b;
+  background: linear-gradient(135deg, #0b9b6b, #032d23);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,10 +164,10 @@
 }
 
 .experience-container ul li:hover {
-  box-shadow: 3px 1px 17px 2px rgba(37, 165, 159, 0.58);
-  background-color: darkcyan;
+  box-shadow: 3px 1px 17px 2px rgba(4, 63, 60, 0.58);
+  background-color: rgb(31, 134, 134);
   color: white;
-  border: 1px solid whitesmoke;
+  border: 0.5px solid white;
   cursor: pointer;
 }
 .project-card {
@@ -179,13 +190,13 @@
 .project-list-container {
   padding-top: 7px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0b9b6b;
+  background: linear-gradient(135deg, #0b9b6b, #032d23);
 }
 .project-list {
   padding: 20px 10px;
-  background-color: #0b9b6b;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -207,7 +218,7 @@
   }
 }
 .skills-container {
-  background-color: #0b9b6b;
+  background: linear-gradient(135deg, #0b9b6b, #032d23);
   margin: 0px;
   padding-top: 60px;
   padding-bottom: 69.5px;
@@ -247,7 +258,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0b9b6b;
+  background: linear-gradient(135deg, #0b9b6b, #032d23);
 }
 .contact-card .card-title {
   text-align: center;
