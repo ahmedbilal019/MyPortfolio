@@ -1,12 +1,33 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built using React, styled with Bootstrap and custom CSS. The goal of this portfolio is to showcase my skills, experience, and projects in a clean, responsive, and modern design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React for a fast and dynamic user experience
 
-## Expanding the ESLint configuration
+- Responsive layout using Bootstrap
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Custom CSS for enhanced styling
+
+- Mobile-friendly design
+
+- Smooth navigation between sections
+
+## Navigation Menu
+
+- **Home** – A brief introduction and welcome section
+
+- **Education** – My academic background
+
+- **Skills** – Technologies and tools I work with
+
+- **Experience** – Work experience and internships
+
+- **Projects** – A showcase of my key projects
+
+- **Contact** – How to get in touch with me
+
+## Live Preview
+
+- https://abilal-portfolio.netlify.app/
