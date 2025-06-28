@@ -16,7 +16,7 @@ function App() {
       id: "1",
       title: "ToDo List",
       description:
-        "A simple task manager built with HTML, CSS, and JavaScript. Users can add, edit, mark/unmark, and delete tasks with ease.",
+        "A simple task manager built with HTML, CSS, and JavaScript. Users can add, edit, mark/unmark, and delete tasks.",
       link: "https://ahmedbilal019.github.io/To-Do-List/",
       image: "/ToDoList.PNG",
     },
