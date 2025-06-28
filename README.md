@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Personal Portfolio
 
 This is a personal portfolio website built using React, styled with Bootstrap and custom CSS. The goal of this portfolio is to showcase my skills, experience, and projects in a clean, responsive, and modern design.
@@ -32,6 +32,3 @@ This is a personal portfolio website built using React, styled with Bootstrap an
 ## Live Preview
 
 - https://abilal-portfolio.netlify.app/
-=======
-###Personal Portfolio ###
->>>>>>> ddbe29dbdf0d9c930662e2f0abfb6709c8015d22
